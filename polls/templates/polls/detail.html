@@ -9,7 +9,7 @@
     {% csrf_token %}
     <fieldset>
         <legend>
-            <h1>{{ question.question.txt }}</h1>
+            <h1>{{ question.question_txt}}</h1>
             {% if error_message %}
             <p>
                 <strong style="color: red;">{{error_message}}</strong>
